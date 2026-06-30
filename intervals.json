@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T16:38:23.179404",
+  "generated_at": "2026-06-30T22:02:37.184154",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -1287,6 +1287,77 @@
           "zone": 1,
           "training_load": 13.423375,
           "decoupling": -5.67952
+        }
+      ]
+    },
+    {
+      "activity_id": "i161605773",
+      "date": "2026-06-30",
+      "type": "Ride",
+      "name": "Evening Giro",
+      "interval_summary": [
+        "1x 31m27s 93bpm",
+        "1x 20m7s 131bpm",
+        "3x 22m53s 122bpm",
+        "1x 29m32s 114bpm",
+        "1x 16m34s 102bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1887s@93bpm",
+          "duration_secs": 1887,
+          "avg_hr": 93,
+          "max_hr": 135,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "1207s@131bpm",
+          "duration_secs": 1207,
+          "avg_hr": 131,
+          "max_hr": 146,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "1373s@122bpm",
+          "duration_secs": 1345,
+          "avg_hr": 131,
+          "max_hr": 155,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "1772s@114bpm",
+          "duration_secs": 1772,
+          "avg_hr": 114,
+          "max_hr": 146,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "1373s@122bpm",
+          "duration_secs": 1424,
+          "avg_hr": 117,
+          "max_hr": 153,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "1373s@122bpm",
+          "duration_secs": 1350,
+          "avg_hr": 118,
+          "max_hr": 146,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "994s@102bpm",
+          "duration_secs": 994,
+          "avg_hr": 102,
+          "max_hr": 124,
+          "zone": 1
         }
       ]
     }
