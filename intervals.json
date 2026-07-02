@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T22:50:48.343099",
+  "generated_at": "2026-07-02T10:16:15.005816",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -1358,6 +1358,27 @@
           "avg_hr": 102,
           "max_hr": 124,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i162001436",
+      "date": "2026-07-02",
+      "type": "TrailRun",
+      "name": "Morning Corsa trail",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 12259,
+          "avg_power": 139,
+          "max_power": 299,
+          "avg_hr": 137,
+          "max_hr": 167,
+          "avg_cadence": 63.172024,
+          "zone": 3,
+          "training_load": 132.01231,
+          "decoupling": 24.230095
         }
       ]
     }
