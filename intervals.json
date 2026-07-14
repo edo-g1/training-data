@@ -1,97 +1,10 @@
 {
-  "generated_at": "2026-07-13T21:31:33.689627",
+  "generated_at": "2026-07-14T05:58:53.516556",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i161326869",
-      "date": "2026-06-29",
-      "type": "Ride",
-      "name": "Evening Giro",
-      "interval_summary": [
-        "2x 27m54s 115bpm",
-        "4x 22m37s 123bpm",
-        "1x 55m15s 133bpm",
-        "1x 17m1s 107bpm",
-        "1x 19s 101bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "1674s@115bpm",
-          "duration_secs": 1682,
-          "avg_hr": 110,
-          "max_hr": 142,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "1357s@123bpm",
-          "duration_secs": 1298,
-          "avg_hr": 120,
-          "max_hr": 149,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "1674s@115bpm",
-          "duration_secs": 1666,
-          "avg_hr": 119,
-          "max_hr": 155,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "3315s@133bpm",
-          "duration_secs": 3315,
-          "avg_hr": 133,
-          "max_hr": 155,
-          "zone": 3
-        },
-        {
-          "type": "WORK",
-          "label": "1021s@107bpm",
-          "duration_secs": 1021,
-          "avg_hr": 107,
-          "max_hr": 141,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "1357s@123bpm",
-          "duration_secs": 1212,
-          "avg_hr": 123,
-          "max_hr": 148,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "1357s@123bpm",
-          "duration_secs": 1423,
-          "avg_hr": 129,
-          "max_hr": 150,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "1357s@123bpm",
-          "duration_secs": 1495,
-          "avg_hr": 119,
-          "max_hr": 168,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "19s@101bpm",
-          "duration_secs": 19,
-          "avg_hr": 101,
-          "max_hr": 102,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i161439119",
       "date": "2026-06-30",
