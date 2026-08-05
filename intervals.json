@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T12:16:56.207163",
+  "generated_at": "2026-08-05T14:43:00.532462",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -1432,6 +1432,27 @@
           "zone": 2,
           "training_load": 104.13,
           "decoupling": -5.0332513
+        }
+      ]
+    },
+    {
+      "activity_id": "i172723543",
+      "date": "2026-08-05",
+      "type": "TrailRun",
+      "name": "Via Normale al Pelmo",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 29273,
+          "avg_power": 84,
+          "max_power": 270,
+          "avg_hr": 126,
+          "max_hr": 161,
+          "avg_cadence": 52.40407,
+          "zone": 2,
+          "training_load": 140.15024,
+          "decoupling": 26.695778
         }
       ]
     }
