@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T19:15:26.391164",
+  "generated_at": "2026-08-22T19:42:53.319085",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -544,6 +544,54 @@
           "zone": 3,
           "training_load": 11.730124,
           "decoupling": -10.120714
+        }
+      ]
+    },
+    {
+      "activity_id": "i178693614",
+      "date": "2026-08-22",
+      "type": "Run",
+      "name": "Night Corsa",
+      "interval_summary": [
+        "1x 5m20s 138bpm"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2868,
+          "avg_power": 173,
+          "max_power": 234,
+          "avg_hr": 128,
+          "max_hr": 146,
+          "avg_cadence": 81.56227,
+          "zone": 2,
+          "training_load": 37.11466,
+          "decoupling": 1.0822532
+        },
+        {
+          "type": "WORK",
+          "label": "320s@197w81rpm",
+          "duration_secs": 320,
+          "avg_power": 197,
+          "max_power": 219,
+          "avg_hr": 138,
+          "max_hr": 144,
+          "avg_cadence": 81.43437,
+          "zone": 3,
+          "training_load": 5.2352624,
+          "decoupling": -5.369053
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 37,
+          "avg_power": 232,
+          "max_power": 261,
+          "avg_hr": 144,
+          "max_hr": 147,
+          "avg_cadence": 80.416664,
+          "zone": 3,
+          "training_load": 0.7205246,
+          "decoupling": -10.627912
         }
       ]
     }
