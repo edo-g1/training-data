@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T12:32:51.876699",
+  "generated_at": "2026-08-26T13:39:01.399083",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -668,6 +668,26 @@
           "zone": 2,
           "training_load": 10.067164,
           "decoupling": 5.4544964
+        }
+      ]
+    },
+    {
+      "activity_id": "i180019310",
+      "date": "2026-08-26",
+      "type": "Ride",
+      "name": "Lunch Giro",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 4037,
+          "avg_power": 155,
+          "max_power": 481,
+          "avg_hr": 136,
+          "max_hr": 155,
+          "zone": 3,
+          "training_load": 59.937866,
+          "decoupling": 23.786776
         }
       ]
     }
