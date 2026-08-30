@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T16:53:42.072355",
+  "generated_at": "2026-08-30T19:34:21.781421",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -861,6 +861,27 @@
           "zone": 3,
           "training_load": 91.69138,
           "decoupling": 10.230424
+        }
+      ]
+    },
+    {
+      "activity_id": "i181479226",
+      "date": "2026-08-30",
+      "type": "Run",
+      "name": "Night Corsa",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 4020,
+          "avg_power": 176,
+          "max_power": 422,
+          "avg_hr": 121,
+          "max_hr": 146,
+          "avg_cadence": 82.04846,
+          "zone": 1,
+          "training_load": 54.545376,
+          "decoupling": 3.9739745
         }
       ]
     }
