@@ -1,31 +1,10 @@
 {
-  "generated_at": "2026-09-12T23:20:01.725014",
+  "generated_at": "2026-09-13T01:13:52.586029",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i180974958",
-      "date": "2026-08-29",
-      "type": "Run",
-      "name": "S6-A2",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3944,
-          "avg_power": 200,
-          "max_power": 372,
-          "avg_hr": 141,
-          "max_hr": 180,
-          "avg_cadence": 82.24146,
-          "zone": 3,
-          "training_load": 91.69138,
-          "decoupling": 10.230424
-        }
-      ]
-    },
     {
       "activity_id": "i181479226",
       "date": "2026-08-30",
