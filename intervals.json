@@ -1,31 +1,10 @@
 {
-  "generated_at": "2026-10-03T21:34:33.419147",
+  "generated_at": "2026-10-04T00:01:29.187475",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i188307247",
-      "date": "2026-09-19",
-      "type": "Run",
-      "name": "Evening Corsa",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 109,
-          "avg_power": 137,
-          "max_power": 325,
-          "avg_hr": 117,
-          "max_hr": 147,
-          "avg_cadence": 65.113205,
-          "zone": 1,
-          "training_load": 0.87389416,
-          "decoupling": "-Infinity"
-        }
-      ]
-    },
     {
       "activity_id": "i188984811",
       "date": "2026-09-21",
