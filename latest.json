@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-11T19:31:20.854887",
+    "last_updated": "2026-10-11T23:08:16.310945",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -12.6
+        "value": -4.2
       }
     },
     "signal_summary": {
@@ -203,10 +203,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 44.53,
-      "atl": 57.16,
-      "tsb": -12.63,
-      "ramp_rate": -0.77,
+      "ctl": 42.72,
+      "atl": 46.91,
+      "tsb": -4.19,
+      "ramp_rate": -2.58,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -272,7 +272,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 6875,
+      "steps": 7896,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -587,15 +587,14 @@
     },
     "consistency_index": 1.0,
     "consistency_details": {
-      "planned_days": 5,
+      "planned_days": 4,
       "completed_days": 5,
-      "matched_days": 5,
+      "matched_days": 4,
       "planned_dates": [
         "2026-10-06",
         "2026-10-07",
         "2026-10-08",
-        "2026-10-10",
-        "2026-10-11"
+        "2026-10-10"
       ],
       "completed_dates": [
         "2026-10-06",
@@ -617,14 +616,14 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 3.68,
+          "planned_tss_delta": null,
           "hard_sessions_planned": 0,
           "current_week_hard_days_completed": 4,
           "current_week_hard_days_total": 4,
           "race_proximity": 49,
-          "next_week_load": 0.98,
-          "plan_coverage_current_week": 0.17,
-          "plan_coverage_next_week": 0.67
+          "next_week_load": 1.5,
+          "plan_coverage_current_week": 0.0,
+          "plan_coverage_next_week": 0.83
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -657,13 +656,13 @@
     "p_max": 855,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-11T19:31:20.853791",
+    "calculation_timestamp": "2026-10-11T23:08:16.309847",
     "data_quality": {
       "hrv_data_points": 5,
       "rhr_data_points": 5,
       "activities_7d": 6,
       "activities_28d": 25,
-      "planned_workouts_7d": 5,
+      "planned_workouts_7d": 4,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -3769,7 +3768,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 6875,
+      "steps": 7896,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3783,7 +3782,7 @@
   "planned_workouts": [
     {
       "id": 137994570,
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "name": "S11-A4",
       "type": "WORKOUT",
       "sport_type": "Run",
@@ -3796,7 +3795,7 @@
     },
     {
       "id": 137994507,
-      "date": "2026-10-12",
+      "date": "2026-10-13",
       "name": "S12-A1",
       "type": "WORKOUT",
       "sport_type": "Run",
