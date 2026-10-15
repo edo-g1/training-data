@@ -62,15 +62,15 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 14.47,
-      "total_training_formatted": "14h28m",
-      "total_activities": 8,
-      "total_tss": 509
+      "total_training_hours": 21.65,
+      "total_training_formatted": "21h39m",
+      "total_activities": 9,
+      "total_tss": 628
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-15T14:15:15.810590",
+    "last_updated": "2026-10-15T18:19:01.148803",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -102,6 +102,15 @@
   "athlete_notes": null,
   "alerts": [
     {
+      "metric": "acwr",
+      "value": 1.45,
+      "severity": "alarm",
+      "threshold": "1.35",
+      "context": "ACWR 1.45 above safe range. Injury/overreach risk elevated.",
+      "persistence_days": null,
+      "tier": 2
+    },
+    {
       "metric": "tid_distribution",
       "value": "Pyramidal",
       "severity": "warning",
@@ -112,8 +121,8 @@
     }
   ],
   "readiness_decision": {
-    "recommendation": "go",
-    "priority": 3,
+    "recommendation": "modify",
+    "priority": 1,
     "signals": {
       "hrv": {
         "status": "unavailable",
@@ -133,21 +142,17 @@
         "quality": null
       },
       "acwr": {
-        "status": "green",
-        "value": 1.26
+        "status": "amber",
+        "value": 1.45
       },
       "ri": {
         "status": "unavailable",
         "value": null,
         "value_yesterday": 1.08
-      },
-      "tsb": {
-        "status": "amber",
-        "value": -23.0
       }
     },
     "signal_summary": {
-      "green": 1,
+      "green": 0,
       "amber": 1,
       "red": 0,
       "unavailable": 4
@@ -159,8 +164,17 @@
       "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
-    "modification": null,
-    "reason": "P3 green light. 1 green, 1 amber (threshold 3), 0 red. Note: 4 signals unavailable \u2014 limited data.",
+    "modification": {
+      "triggers": [
+        "acwr"
+      ],
+      "suggested_adjustments": {
+        "intensity": "reduce",
+        "volume": "reduce",
+        "cap_zone": "Z2"
+      }
+    },
+    "reason": "P1 acute overload (modify). ACWR 1.45 >= 1.3.",
     "alarm_refs": []
   },
   "history": {
@@ -173,8 +187,8 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 14.47,
-    "total_activities": 8,
+    "total_duration_decimal_hours": 21.65,
+    "total_activities": 9,
     "by_activity_type": {
       "Hike": {
         "duration_decimal_hours": 0.88,
@@ -189,13 +203,13 @@
         }
       },
       "RockClimbing": {
-        "duration_decimal_hours": 10.61,
-        "count": 4,
-        "tss": 326,
-        "distance_km": 11.1,
+        "duration_decimal_hours": 17.79,
+        "count": 5,
+        "tss": 445,
+        "distance_km": 33.3,
         "display": {
           "distance": {
-            "value": 11.1,
+            "value": 33.3,
             "unit": "km"
           }
         }
@@ -216,10 +230,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 43.12,
-      "atl": 66.09,
-      "tsb": -22.97,
-      "ramp_rate": -2.05,
+      "ctl": 42.27,
+      "atl": 74.49,
+      "tsb": -32.22,
+      "ramp_rate": -2.9,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -305,53 +319,53 @@
     "rhr_baseline_28d": 43.6,
     "latest_hrv": null,
     "latest_rhr": null,
-    "acwr": 1.26,
-    "acwr_interpretation": "optimal",
-    "monotony": 1.14,
-    "monotony_interpretation": "normal (primary sport 1.04, total 1.14 inflated by multi-sport)",
+    "acwr": 1.45,
+    "acwr_interpretation": "caution",
+    "monotony": 1.59,
+    "monotony_interpretation": "normal (primary sport 1.36, total 1.59 inflated by multi-sport)",
     "primary_sport": "other",
-    "primary_sport_monotony": 1.04,
-    "primary_sport_tss_7d": 326.0,
-    "effective_monotony": 1.04,
+    "primary_sport_monotony": 1.36,
+    "primary_sport_tss_7d": 445.0,
+    "effective_monotony": 1.36,
     "multi_sport_detected": true,
-    "strain": 580.0,
-    "stress_tolerance": 5.1,
+    "strain": 999.0,
+    "stress_tolerance": 6.3,
     "load_recovery_ratio": null,
-    "tss_7d_total": 509.0,
-    "tss_28d_total": 1610.0,
+    "tss_7d_total": 628.0,
+    "tss_28d_total": 1729.0,
     "zone_distribution_7d": {
-      "z1_hours": 21.48,
-      "z2_hours": 0.21,
+      "z1_hours": 27.26,
+      "z2_hours": 0.23,
       "z3_hours": 1.47,
       "z4_plus_hours": 1.36,
-      "total_hours": 24.52,
+      "total_hours": 30.32,
       "zone_basis": "mixed"
     },
-    "grey_zone_percentage": 6.0,
+    "grey_zone_percentage": 4.8,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 5.6,
+    "quality_intensity_percentage": 4.5,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "easy_time_ratio": 0.88,
+    "easy_time_ratio": 0.91,
     "easy_time_ratio_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
     "hard_days_this_week": 2,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 78094,
-      "z2_seconds": 5276,
+      "z1_seconds": 98963,
+      "z2_seconds": 5278,
       "z3_seconds": 4905,
-      "z1_pct": 88.5,
-      "z2_pct": 6.0,
-      "z3_pct": 5.6,
+      "z1_pct": 90.7,
+      "z2_pct": 4.8,
+      "z3_pct": 4.5,
       "polarization_index": null,
       "classification": "Pyramidal",
       "zone_basis": "mixed"
     },
     "seiler_tid_7d_primary": {
-      "z1_seconds": 74244,
-      "z2_seconds": 119,
+      "z1_seconds": 95113,
+      "z2_seconds": 121,
       "z3_seconds": 0,
-      "z1_pct": 99.8,
-      "z2_pct": 0.2,
+      "z1_pct": 99.9,
+      "z2_pct": 0.1,
       "z3_pct": 0.0,
       "polarization_index": null,
       "classification": "Base",
@@ -359,19 +373,19 @@
       "sport": "other"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 159988,
-      "z2_seconds": 19424,
+      "z1_seconds": 180857,
+      "z2_seconds": 19426,
       "z3_seconds": 25930,
-      "z1_pct": 77.9,
-      "z2_pct": 9.5,
-      "z3_pct": 12.6,
-      "polarization_index": 2.02,
+      "z1_pct": 79.9,
+      "z2_pct": 8.6,
+      "z3_pct": 11.5,
+      "polarization_index": 2.03,
       "classification": "Polarized",
       "zone_basis": "mixed"
     },
     "seiler_tid_28d_primary": {
-      "z1_seconds": 108750,
-      "z2_seconds": 120,
+      "z1_seconds": 129619,
+      "z2_seconds": 122,
       "z3_seconds": 0,
       "z1_pct": 99.9,
       "z2_pct": 0.1,
@@ -414,7 +428,7 @@
         "classification_7d": "Pyramidal",
         "classification_28d": "Polarized",
         "pi_7d": null,
-        "pi_28d": 2.02,
+        "pi_28d": 2.03,
         "pi_delta": null,
         "drift": "shifting",
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
@@ -601,7 +615,7 @@
     "consistency_index": 1.0,
     "consistency_details": {
       "planned_days": 4,
-      "completed_days": 5,
+      "completed_days": 6,
       "matched_days": 4,
       "planned_dates": [
         "2026-10-10",
@@ -614,7 +628,8 @@
         "2026-10-11",
         "2026-10-12",
         "2026-10-13",
-        "2026-10-14"
+        "2026-10-14",
+        "2026-10-15"
       ]
     },
     "phase_detection": {
@@ -669,12 +684,12 @@
     "p_max": 851,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-15T14:15:15.809808",
+    "calculation_timestamp": "2026-10-15T18:19:01.148003",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
-      "activities_7d": 8,
-      "activities_28d": 27,
+      "activities_7d": 9,
+      "activities_28d": 28,
       "planned_workouts_7d": 4,
       "ftp_history_days": {
         "indoor": 0,
@@ -683,6 +698,76 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "i197659246",
+      "date": "2026-10-15T07:11:06",
+      "type": "RockClimbing",
+      "name": "Gole di Gorropu - cuore in gola - 7c+",
+      "duration_hours": 7.18,
+      "distance_km": 22.13,
+      "tss": 119,
+      "intensity_factor": 33.26997,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": 104,
+      "max_hr": 167,
+      "avg_cadence": 57.068882,
+      "avg_speed": 2.1,
+      "avg_speed_unit": "KPH",
+      "max_speed": 42.0,
+      "max_speed_unit": "KPH",
+      "avg_pace": null,
+      "avg_temp": 28.292324,
+      "avg_temp_unit": "C",
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "wind_speed_unit": "KMH",
+      "work_kj": null,
+      "calories": 3167,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": 463.0,
+      "display": {
+        "distance": {
+          "value": 22.13,
+          "unit": "km"
+        },
+        "elevation": {
+          "value": 463,
+          "unit": "m"
+        },
+        "avg_speed": {
+          "value": 2.1,
+          "unit": "km/h"
+        },
+        "max_speed": {
+          "value": 42.0,
+          "unit": "km/h"
+        }
+      },
+      "feel": 5,
+      "rpe": null,
+      "effort_response": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 20818,
+          "z2_time": 51,
+          "z3_time": 2,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      },
+      "has_intervals": false,
+      "has_dfa": false,
+      "description": "\u26f0\ufe0f Passo di Genna Silana (1,002 m) | \ud83c\udf10 summitbag.com"
+    },
     {
       "id": "i197256070",
       "date": "2026-10-14T15:54:30",
@@ -4084,10 +4169,10 @@
     "bail_no_match": 2
   },
   "weekly_summary": {
-    "total_training_hours": 14.47,
-    "total_training_formatted": "14h28m",
-    "total_tss": 509,
-    "activities_count": 8,
+    "total_training_hours": 21.65,
+    "total_training_formatted": "21h39m",
+    "total_tss": 628,
+    "activities_count": 9,
     "avg_hrv": 72.3,
     "avg_resting_hr": 41.5
   },
