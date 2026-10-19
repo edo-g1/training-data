@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-19T19:17:36.607397",
+    "last_updated": "2026-10-19T22:57:34.236504",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -660,7 +660,7 @@
     "p_max": 848,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-19T19:17:36.606352",
+    "calculation_timestamp": "2026-10-19T22:57:34.235675",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -678,7 +678,7 @@
       "id": "i199184736",
       "date": "2026-10-19T19:25:31",
       "type": "Run",
-      "name": "Evening Corsa",
+      "name": "S12-A4",
       "duration_hours": 1.22,
       "distance_km": 13.43,
       "tss": 52,
@@ -783,7 +783,8 @@
           }
         }
       },
-      "weather_status": "unavailable"
+      "weather_status": "unavailable",
+      "description": "1km LL\n12km L\n4x 60m allunghi"
     },
     {
       "id": "i198746670",
