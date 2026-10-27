@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T18:40:02.196916",
+  "generated_at": "2026-10-27T22:36:00.158728",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -1081,6 +1081,147 @@
           "avg_hr": 134,
           "max_hr": 134,
           "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i202458481",
+      "date": "2026-10-27",
+      "type": "Run",
+      "name": "S13-A3",
+      "interval_summary": [
+        "1x 6m36s 108bpm",
+        "1x 27m13s 134bpm",
+        "3x 13m42s 151bpm",
+        "3x 6m23s 135bpm",
+        "1x 22m53s 138bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "396s@185w84rpm",
+          "duration_secs": 396,
+          "avg_power": 185,
+          "max_power": 268,
+          "avg_hr": 108,
+          "max_hr": 129,
+          "avg_cadence": 83.52412,
+          "zone": 1,
+          "training_load": 6.702681,
+          "decoupling": 13.122815
+        },
+        {
+          "type": "WORK",
+          "label": "1633s@240w86rpm",
+          "duration_secs": 1633,
+          "avg_power": 240,
+          "max_power": 391,
+          "avg_hr": 134,
+          "max_hr": 144,
+          "avg_cadence": 86.04235,
+          "zone": 2,
+          "training_load": 41.29426,
+          "decoupling": 5.4708033
+        },
+        {
+          "type": "WORK",
+          "label": "822s@278w87rpm",
+          "duration_secs": 822,
+          "avg_power": 272,
+          "max_power": 381,
+          "avg_hr": 149,
+          "max_hr": 159,
+          "avg_cadence": 86.82704,
+          "zone": 3,
+          "training_load": 25.941513,
+          "decoupling": -1.5454061
+        },
+        {
+          "type": "WORK",
+          "label": "383s@215w82rpm",
+          "duration_secs": 370,
+          "avg_power": 219,
+          "max_power": 292,
+          "avg_hr": 132,
+          "max_hr": 149,
+          "avg_cadence": 83.34418,
+          "zone": 2,
+          "training_load": 8.105568,
+          "decoupling": -12.331436
+        },
+        {
+          "type": "WORK",
+          "label": "822s@278w87rpm",
+          "duration_secs": 823,
+          "avg_power": 282,
+          "max_power": 448,
+          "avg_hr": 152,
+          "max_hr": 159,
+          "avg_cadence": 87.14933,
+          "zone": 3,
+          "training_load": 27.700947,
+          "decoupling": 0.9705549
+        },
+        {
+          "type": "WORK",
+          "label": "383s@215w82rpm",
+          "duration_secs": 407,
+          "avg_power": 212,
+          "max_power": 281,
+          "avg_hr": 136,
+          "max_hr": 150,
+          "avg_cadence": 79.00737,
+          "zone": 2,
+          "training_load": 8.512816,
+          "decoupling": 3.4137404
+        },
+        {
+          "type": "WORK",
+          "label": "822s@278w87rpm",
+          "duration_secs": 821,
+          "avg_power": 280,
+          "max_power": 362,
+          "avg_hr": 153,
+          "max_hr": 161,
+          "avg_cadence": 86.55854,
+          "zone": 3,
+          "training_load": 27.828575,
+          "decoupling": -1.1338532
+        },
+        {
+          "type": "WORK",
+          "label": "383s@215w82rpm",
+          "duration_secs": 373,
+          "avg_power": 215,
+          "max_power": 273,
+          "avg_hr": 136,
+          "max_hr": 155,
+          "avg_cadence": 84.42204,
+          "zone": 2,
+          "training_load": 7.3974137,
+          "decoupling": -6.493305
+        },
+        {
+          "type": "WORK",
+          "label": "1373s@228w87rpm",
+          "duration_secs": 1373,
+          "avg_power": 228,
+          "max_power": 287,
+          "avg_hr": 138,
+          "max_hr": 147,
+          "avg_cadence": 87.476295,
+          "zone": 3,
+          "training_load": 30.309885,
+          "decoupling": 2.3918328
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_power": 220,
+          "max_power": 220,
+          "avg_hr": 140,
+          "max_hr": 140,
+          "zone": 3
         }
       ]
     }
