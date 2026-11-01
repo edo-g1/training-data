@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T13:46:30.354809",
+  "generated_at": "2026-11-01T18:40:02.441337",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -1597,6 +1597,27 @@
           "zone": 1,
           "training_load": 82.32583,
           "decoupling": 23.819199
+        }
+      ]
+    },
+    {
+      "activity_id": "i204416675",
+      "date": "2026-11-01",
+      "type": "TrailRun",
+      "name": "Lunch Corsa trail",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 14108,
+          "avg_power": 50,
+          "max_power": 335,
+          "avg_hr": 113,
+          "max_hr": 156,
+          "avg_cadence": 46.221607,
+          "zone": 1,
+          "training_load": 29.955992,
+          "decoupling": 30.550146
         }
       ]
     }
