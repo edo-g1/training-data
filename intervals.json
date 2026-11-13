@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T17:55:34.124006",
+  "generated_at": "2026-11-13T23:01:39.375227",
   "version": "3.112",
   "script_hash": "d151d2e118f2",
   "scan_hours": 72,
@@ -1525,6 +1525,72 @@
           "zone": 3,
           "training_load": 2.0698876,
           "decoupling": -9.542551
+        }
+      ]
+    },
+    {
+      "activity_id": "i209708458",
+      "date": "2026-11-13",
+      "type": "Run",
+      "name": "Night Corsa",
+      "interval_summary": [
+        "1x 5m48s 119bpm",
+        "1x 10m8s 133bpm",
+        "1x 38m2s 156bpm",
+        "1x 17m40s 139bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "348s@225w90rpm",
+          "duration_secs": 348,
+          "avg_power": 225,
+          "max_power": 267,
+          "avg_hr": 119,
+          "max_hr": 132,
+          "avg_cadence": 90.033134,
+          "zone": 1,
+          "training_load": 7.4836497,
+          "decoupling": 0.18869379
+        },
+        {
+          "type": "WORK",
+          "label": "608s@260w89rpm",
+          "duration_secs": 608,
+          "avg_power": 260,
+          "max_power": 276,
+          "avg_hr": 133,
+          "max_hr": 144,
+          "avg_cadence": 88.93874,
+          "zone": 2,
+          "training_load": 17.283937,
+          "decoupling": 0.14125639
+        },
+        {
+          "type": "WORK",
+          "label": "2282s@283w89rpm",
+          "duration_secs": 2282,
+          "avg_power": 283,
+          "max_power": 328,
+          "avg_hr": 156,
+          "max_hr": 166,
+          "avg_cadence": 88.8356,
+          "zone": 3,
+          "training_load": 76.8087,
+          "decoupling": 4.4150295
+        },
+        {
+          "type": "WORK",
+          "label": "1060s@229w87rpm",
+          "duration_secs": 1060,
+          "avg_power": 229,
+          "max_power": 272,
+          "avg_hr": 139,
+          "max_hr": 155,
+          "avg_cadence": 86.971695,
+          "zone": 3,
+          "training_load": 23.400204,
+          "decoupling": 0.106751986
         }
       ]
     }
