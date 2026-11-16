@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-16T11:04:25.085034",
+    "last_updated": "2026-11-16T20:58:45.600894",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -143,7 +143,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 1.1
+        "value": 4.0
       }
     },
     "signal_summary": {
@@ -201,10 +201,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 44.06,
-      "atl": 42.99,
-      "tsb": 1.07,
-      "ramp_rate": -2.04,
+      "ctl": 43.43,
+      "atl": 39.4,
+      "tsb": 4.03,
+      "ramp_rate": -2.68,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -270,7 +270,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 14657,
+      "steps": 15680,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -583,15 +583,14 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.75,
+    "consistency_index": 1.0,
     "consistency_details": {
-      "planned_days": 4,
+      "planned_days": 3,
       "completed_days": 3,
       "matched_days": 3,
       "planned_dates": [
         "2026-11-12",
         "2026-11-13",
-        "2026-11-15",
         "2026-11-16"
       ],
       "completed_dates": [
@@ -602,9 +601,9 @@
     },
     "phase_detection": {
       "phase": "Taper",
-      "confidence": "high",
+      "confidence": "medium",
       "reason_codes": [
-        "RACE_IMMINENT_VOLUME_REDUCING"
+        "RACE_IMMINENT"
       ],
       "basis": {
         "stream_1": {
@@ -614,14 +613,14 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.51,
+          "planned_tss_delta": 0.87,
           "hard_sessions_planned": 3,
           "current_week_hard_days_completed": 1,
           "current_week_hard_days_total": 4,
           "race_proximity": 13,
-          "next_week_load": null,
-          "plan_coverage_current_week": 0.6,
-          "plan_coverage_next_week": 0.2
+          "next_week_load": 0.51,
+          "plan_coverage_current_week": 0.8,
+          "plan_coverage_next_week": 0.8
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -633,7 +632,7 @@
     },
     "phase_detected": "Taper",
     "phase_triggers": [
-      "RACE_IMMINENT_VOLUME_REDUCING"
+      "RACE_IMMINENT"
     ],
     "seasonal_context": "Off-season / Transition",
     "benchmark_indoor": {
@@ -656,13 +655,13 @@
     "p_max": 990,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-16T11:04:25.084276",
+    "calculation_timestamp": "2026-11-16T20:58:45.599816",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 3,
       "activities_28d": 20,
-      "planned_workouts_7d": 4,
+      "planned_workouts_7d": 3,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -3912,7 +3911,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 14657,
+      "steps": 15680,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3925,8 +3924,60 @@
   ],
   "planned_workouts": [
     {
-      "id": 146793545,
+      "id": 146799469,
       "date": "2026-11-16",
+      "name": "S16-A3",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 76,
+      "duration_hours": 1.38,
+      "duration_formatted": "1h23m",
+      "workout_summary": "2 \u00d7 5m24s | 1h4m53s | 5m24s | 4\u00d711s / 30s rec",
+      "has_terrain": false,
+      "description": "-LL 1km z1 hr\n-L 1km z2 hr\n-M 12km z3 hr\n-LL 1km z1 hr\n\n4x\n-allunghi 0.06km 3:00 pace\n-recupero 30s"
+    },
+    {
+      "id": 156819191,
+      "date": "2026-11-18",
+      "name": "S16-A1",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 30,
+      "duration_hours": 0.77,
+      "duration_formatted": "46m3s",
+      "workout_summary": "5m24s | 37m51s | 4\u00d712s / 30s rec",
+      "has_terrain": false,
+      "description": "-LL 1km z1 HR\n-L 7km z2 HR\n\n4x\n-Allunghi 0.06km 03:00-03:30 Pace \n-Riposo 30s"
+    },
+    {
+      "id": 156819206,
+      "date": "2026-11-20",
+      "name": "S16-A2",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 54,
+      "duration_hours": 1.08,
+      "duration_formatted": "1h4m53s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "-LL 1km z1 hr\n-L 2km z2 hr\n-M 8km z3 hr\n-LL 1km z1 hr"
+    },
+    {
+      "id": 156819251,
+      "date": "2026-11-22",
+      "name": "S16-A3",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 75,
+      "duration_hours": 1.4,
+      "duration_formatted": "1h23m49s",
+      "workout_summary": "2 \u00d7 5m24s | 1h4m53s | 5m24s | 4\u00d711s / 30s rec",
+      "has_terrain": false,
+      "description": "-LL 1km z1 hr\n-L 1km z2 hr\n-M 12km z3 hr\n-LL 1km z1 hr\n\n4x\n-allunghi 0.06km 3:00 pace\n-recupero 30s"
+    },
+    {
+      "id": 146793545,
+      "date": "2026-11-23",
       "name": "S17-A1",
       "type": "WORKOUT",
       "sport_type": "Run",
@@ -3939,7 +3990,7 @@
     },
     {
       "id": 146793564,
-      "date": "2026-11-18",
+      "date": "2026-11-25",
       "name": "S17-A2",
       "type": "WORKOUT",
       "sport_type": "Run",
@@ -3947,12 +3998,11 @@
       "duration_hours": 1.33,
       "duration_formatted": "1h20m",
       "workout_summary": "15m | 10\u00d71m / 5m rec | 5m",
-      "has_terrain": false,
-      "description": "-riscaldamento 15m z1 hr\n\n10x\n-veloce 1m 3:30 Pace\n-lento 5m 5:30 Pace\n\n-defaticamento 5m 6:00 Pace"
+      "has_terrain": false
     },
     {
       "id": 146793580,
-      "date": "2026-11-20",
+      "date": "2026-11-27",
       "name": "S17-A3",
       "type": "WORKOUT",
       "sport_type": "Run",
@@ -3960,8 +4010,7 @@
       "duration_hours": 0.4,
       "duration_formatted": "24m12s",
       "workout_summary": "4 \u00d7 5m | 6\u00d712s / 30s rec",
-      "has_terrain": false,
-      "description": "- Z1 5m Z1 HR hr=lap\n- Z2 5m Z2 HR hr=lap\n- Z3 5m Z3 HR hr=lap\n- Z4 5m Z4 HR hr=lap\n\n6x\n-Allunghi 0.06km 03:00-03:30 Pace \n-Riposo 30s"
+      "has_terrain": false
     },
     {
       "id": 112296684,
@@ -3975,15 +4024,41 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": null
+    },
+    {
+      "id": 156825791,
+      "date": "2026-12-01",
+      "name": "Tesi 1 capitolo",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 156825480,
+      "date": "2026-12-08",
+      "name": "Podistica della ciclovisciola",
+      "type": "RACE_B",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
     }
   ],
   "workout_summary_stats": {
-    "attempted": 3,
-    "success": 3,
-    "patternA": 3,
+    "attempted": 7,
+    "success": 6,
+    "patternA": 6,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 0
+    "bail_no_match": 1
   },
   "weekly_summary": {
     "total_training_hours": 3.3,
@@ -4022,6 +4097,22 @@
         "display": {
           "distance": {
             "value": 21.1,
+            "unit": "km"
+          }
+        },
+        "has_terrain": false
+      },
+      {
+        "name": "Podistica della ciclovisciola",
+        "date": "2026-12-08",
+        "category": "RACE_B",
+        "type": "Run",
+        "days_until": 22,
+        "moving_time_seconds": null,
+        "distance_meters": 10000.0,
+        "display": {
+          "distance": {
+            "value": 10.0,
             "unit": "km"
           }
         },
