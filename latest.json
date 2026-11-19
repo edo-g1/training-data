@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-19T08:43:38.641413",
+    "last_updated": "2026-11-19T17:39:48.409907",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -100,36 +100,55 @@
     "years_on_platform": 0
   },
   "athlete_notes": null,
-  "alerts": [],
+  "alerts": [
+    {
+      "metric": "hrv",
+      "value": 44.0,
+      "severity": "warning",
+      "threshold": "\u2193>20% vs baseline (59.6)",
+      "context": "HRV 44.0 is 26.2% below baseline. Monitor \u2014 alarm if persists >2 days.",
+      "persistence_days": 1,
+      "tier": 1
+    },
+    {
+      "metric": "rhr",
+      "value": 53,
+      "severity": "warning",
+      "threshold": "\u2191\u22655bpm vs baseline (43.7)",
+      "context": "RHR 53 is 9.3bpm above baseline. Monitor \u2014 alarm if persists >2 days.",
+      "persistence_days": 1,
+      "tier": 1
+    }
+  ],
   "readiness_decision": {
-    "recommendation": "go",
-    "priority": 3,
+    "recommendation": "skip",
+    "priority": 2,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 62.2,
-        "delta_pct": null
+        "status": "red",
+        "value": 44.0,
+        "baseline_7d": 59.6,
+        "delta_pct": -26.2
       },
       "rhr": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 42.2,
-        "delta_bpm": null
+        "status": "red",
+        "value": 53,
+        "baseline_7d": 43.7,
+        "delta_bpm": 9.3
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
-        "quality": null
+        "status": "green",
+        "hours": 7.72,
+        "quality": 2
       },
       "acwr": {
         "status": "green",
         "value": 0.72
       },
       "ri": {
-        "status": "unavailable",
-        "value": null,
-        "value_yesterday": 0.97
+        "status": "green",
+        "value": 0.61,
+        "value_yesterday": 1.05
       },
       "tsb": {
         "status": "green",
@@ -137,10 +156,10 @@
       }
     },
     "signal_summary": {
-      "green": 2,
+      "green": 4,
       "amber": 0,
-      "red": 0,
-      "unavailable": 4
+      "red": 2,
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Taper",
@@ -150,7 +169,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 2 green, 0 amber (threshold 1), 0 red. Note: 4 signals unavailable \u2014 limited data.",
+    "reason": "P2 signal count. 2 red (hrv, rhr), 0 amber ().",
     "alarm_refs": []
   },
   "history": {
@@ -253,12 +272,12 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 44,
-      "hrv": null,
-      "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_score": null,
+      "resting_hr": 53,
+      "hrv": 44.0,
+      "sleep_quality": 2,
+      "sleep_hours": 7.72,
+      "sleep_formatted": "7h43m",
+      "sleep_score": 85.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -266,7 +285,7 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": null,
+      "spO2": 100.0,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
@@ -275,7 +294,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 272,
+      "steps": 2122,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -287,14 +306,14 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
-    "recovery_index_yesterday": 0.97,
-    "hrv_baseline_7d": 62.2,
-    "rhr_baseline_7d": 42.2,
-    "hrv_baseline_28d": 55.7,
-    "rhr_baseline_28d": 44.0,
-    "latest_hrv": null,
-    "latest_rhr": null,
+    "recovery_index": 0.61,
+    "recovery_index_yesterday": 1.05,
+    "hrv_baseline_7d": 59.6,
+    "rhr_baseline_7d": 43.7,
+    "hrv_baseline_28d": 55.2,
+    "rhr_baseline_28d": 44.3,
+    "latest_hrv": 44.0,
+    "latest_rhr": 53,
     "acwr": 0.72,
     "acwr_interpretation": "undertraining",
     "monotony": 0.85,
@@ -306,7 +325,7 @@
     "multi_sport_detected": true,
     "strain": 185.0,
     "stress_tolerance": 2.2,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 3.6,
     "tss_7d_total": 218.0,
     "tss_28d_total": 1207.0,
     "zone_distribution_7d": {
@@ -661,10 +680,10 @@
     "p_max": 987,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-19T08:43:38.640658",
+    "calculation_timestamp": "2026-11-19T17:39:48.409123",
     "data_quality": {
-      "hrv_data_points": 6,
-      "rhr_data_points": 6,
+      "hrv_data_points": 7,
+      "rhr_data_points": 7,
       "activities_7d": 5,
       "activities_28d": 21,
       "planned_workouts_7d": 3,
@@ -3876,15 +3895,15 @@
       "display": {
         "weight": null
       },
-      "resting_hr": null,
-      "hrv_rmssd": null,
+      "resting_hr": 53,
+      "hrv_rmssd": 44.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_hours": 7.72,
+      "sleep_formatted": "7h43m",
+      "sleep_quality": 2,
+      "sleep_score": 85.0,
       "mental_energy": null,
-      "avg_sleeping_hr": null,
+      "avg_sleeping_hr": 57.0,
       "vo2max": null,
       "fatigue": null,
       "soreness": null,
@@ -3893,7 +3912,7 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": null,
+      "spO2": 100.0,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
@@ -3902,7 +3921,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 272,
+      "steps": 2122,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -4008,7 +4027,7 @@
       "id": 156825480,
       "date": "2026-12-08",
       "name": "Podistica della ciclovisciola",
-      "type": "RACE_B",
+      "type": "RACE_C",
       "sport_type": "Run",
       "planned_tss": null,
       "duration_hours": 0.0,
@@ -4016,6 +4035,58 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": null
+    },
+    {
+      "id": 158002409,
+      "date": "2026-12-13",
+      "name": "6 Miglia di Natale",
+      "type": "RACE_C",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 158002712,
+      "date": "2026-12-14",
+      "name": "Teoria delle Strutture",
+      "type": "RACE_A",
+      "sport_type": "Other",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 158003106,
+      "date": "2026-12-19",
+      "name": "Xmas Night Run",
+      "type": "RACE_C",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Filottrano partenza 17\nhttps://www.calendariopodismo.it/gara/81889/2xmas-night-run/"
+    },
+    {
+      "id": 158005186,
+      "date": "2026-12-20",
+      "name": "Podistica di Natale \u2013 Urban Trail dei Castelli",
+      "type": "RACE_C",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "https://gpasanmarino.net/podistica/"
     }
   ],
   "workout_summary_stats": {
@@ -4023,7 +4094,7 @@
     "success": 4,
     "patternA": 4,
     "patternB": 0,
-    "bail_no_workout_doc": 0,
+    "bail_no_workout_doc": 2,
     "bail_no_match": 1
   },
   "weekly_summary": {
@@ -4031,8 +4102,8 @@
     "total_training_formatted": "6h5m",
     "total_tss": 218,
     "activities_count": 5,
-    "avg_hrv": 62.2,
-    "avg_resting_hr": 42.2
+    "avg_hrv": 59.6,
+    "avg_resting_hr": 43.7
   },
   "race_calendar": {
     "next_race": {
@@ -4071,7 +4142,7 @@
       {
         "name": "Podistica della ciclovisciola",
         "date": "2026-12-08",
-        "category": "RACE_B",
+        "category": "RACE_C",
         "type": "Run",
         "days_until": 19,
         "moving_time_seconds": null,
@@ -4079,6 +4150,67 @@
         "display": {
           "distance": {
             "value": 10.0,
+            "unit": "km"
+          }
+        },
+        "has_terrain": false
+      },
+      {
+        "name": "6 Miglia di Natale",
+        "date": "2026-12-13",
+        "category": "RACE_C",
+        "type": "Run",
+        "days_until": 24,
+        "moving_time_seconds": null,
+        "distance_meters": 10000.0,
+        "display": {
+          "distance": {
+            "value": 10.0,
+            "unit": "km"
+          }
+        },
+        "has_terrain": false
+      },
+      {
+        "name": "Teoria delle Strutture",
+        "date": "2026-12-14",
+        "category": "RACE_A",
+        "type": "Other",
+        "days_until": 25,
+        "moving_time_seconds": null,
+        "distance_meters": null,
+        "display": {
+          "distance": null
+        },
+        "has_terrain": false
+      },
+      {
+        "name": "Xmas Night Run",
+        "date": "2026-12-19",
+        "category": "RACE_C",
+        "type": "Run",
+        "days_until": 30,
+        "moving_time_seconds": null,
+        "distance_meters": 6500.0,
+        "display": {
+          "distance": {
+            "value": 6.5,
+            "unit": "km"
+          }
+        },
+        "has_terrain": false
+      },
+      {
+        "name": "Podistica di Natale \u2013 Urban Trail dei Castelli",
+        "date": "2026-12-20",
+        "category": "RACE_C",
+        "type": "Run",
+        "days_until": 31,
+        "moving_time_seconds": null,
+        "distance_meters": 15000.0,
+        "display": {
+          "distance": {
+            "value": 15.0,
             "unit": "km"
           }
         },
